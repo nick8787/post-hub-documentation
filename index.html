@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html class="wide" lang="en">
+<head>
+    <!-- Site Title-->
+    <title>Post-wave-demo</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="images/icons8-favicon-64.png" type="image/x-icon">
+    <!-- Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Barlow:100,200,300,400,700">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+</head>
+<body>
+<div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+<!-- Page-->
+<div class="page bg-image novi-background">
+    <div class="preloader">
+        <div class="preloader-body">
+            <div class="cssload-container">
+                <div class="cssload-speeding-wheel"></div>
+            </div>
+            <p>Loading...</p>
+        </div>
+    </div>
+    <!-- Page Header-->
+    <header class="section page-header">
+        <div class="container">
+            <div class="row justify-content-between align-items-end row-30">
+                <div class="col-12 col-md-6"><a class="brand-logo" href="./"><img src="images/logo-default-346x62.png" alt="" width="300" height="65"/></a></div>
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="head-title">
+                        <p class="pulsing-text">It's a demo project created on Java, Spring Boot.<br class="d-none d-md-inline-block">See more info in 'Documentation' below</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section section-xs">
+        <div class="container">
+            <!-- Bootstrap tabs-->
+            <div class="tabs-custom tabs-horizontal tabs-corporate" id="tabs-1">
+                <!-- Nav tabs-->
+                <ul class="nav nav-tabs">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-1-1" data-toggle="tab"><span class="nav-link-main">Gallery</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-2" data-toggle="tab"><span class="nav-link-main">About Me</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-3" data-toggle="tab"><span class="nav-link-main">Documentation</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-4" data-toggle="tab"><span class="nav-link-main">Contacts</span></a></li>
+                </ul>
+                <!-- Tab panes-->
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="tabs-1-1">
+                        <div class="tabs-custom tabs-horizontal tabs-gallery hide-on-modal" id="tabs-gallery">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link" href="https://gitlab.com/post_wave-project" target="_blank">
+                                        <img src="images/gitlab-icon-180x180.jpg" alt="GitLab" width="180" height="180"/>
+                                        <span>GitLab CI/CD</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link" href="http://185.69.155.205:8100/webjars/swagger-ui/index.html?urls.primaryName=gateway-service" target="_blank">
+                                        <img src="images/swagger-icon-180x180.jpg" alt="Swagger" width="180" height="180"/>
+                                        <span>Swagger</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link" href="https://github.com/nick8787/post-wave-demo-project" target="_blank">
+                                        <img src="images/github-icon-180x180.jpg" alt="GitHub" width="180" height="180"/>
+                                        <span>GitHub</span>
+                                    </a>
+                                </li>
+                                <!-- Вкладка Docker Hub с галереей -->
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link" href="#tabs-gallery-4" data-toggle="tab">
+                                        <img src="images/docker-icon.jpg" alt="Hosting" width="180" height="180"/>
+                                        <span>Docker Hub</span>
+                                    </a>
+                                </li>
+                                <!-- Вкладка Database с галереей -->
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link" href="#tabs-gallery-5" data-toggle="tab">
+                                        <img src="images/ScaleGrid-icon.jpg" alt="Database" width="180" height="180"/>
+                                        <span>Database</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- Табы галереи -->
+                            <div class="tab-content">
+                                <!-- Галерея для вкладки Hosting -->
+                                <div class="tab-pane fade" id="tabs-gallery-4">
+                                    <div class="gallery-wrap">
+                                        <div class="gallery-wrap-inner">
+                                            <h4>Docker Hub</h4>
+                                            <div class="dots-custom-portrait"></div><a class="back-to-gallery button-link button-link-icon" href="#"><span class="novi-icon icon icon-primary fa fa-angle-left"></span><span>back to gallery</span></a>
+                                        </div>
+                                        <div class="gallery-wrap-inner">
+                                            <!-- Owl Carousel-->
+                                            <div class="owl-carousel owl-gallery" data-items="1" data-dots="true" data-nav="false" data-stage-padding="0" data-loop="false" data-margin="0" data-mouse-drag="false" data-lightgallery="group" data-pagination-class=".dots-custom-portrait"><a class="gallery-item" href="images/gallery-04-970x524.jpg" data-lightgallery="item">
+                                                <figure><img src="images/docker-image-1.jpg" alt="" width="970" height="524"/>
+                                                </figure>
+                                                <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-04-02-970x524.jpg" data-lightgallery="item">
+                                                <figure><img src="images/docker-image-2.jpg" alt="" width="970" height="524"/>
+                                                </figure>
+                                                <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-04-03-970x524.jpg" data-lightgallery="item">
+                                                <figure><img src="images/docker-image-3.jpg" alt="" width="970" height="524"/>
+                                                </figure>
+                                                <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Галерея для вкладки Database -->
+                                <div class="tab-pane fade" id="tabs-gallery-5">
+                                    <div class="gallery-wrap">
+                                        <div class="gallery-wrap-inner">
+                                            <h4>Database</h4>
+                                            <div class="dots-custom-nature"></div><a class="back-to-gallery button-link button-link-icon" href="#"><span class="novi-icon icon icon-primary fa fa-angle-left"></span><span>back to gallery</span></a>
+                                        </div>
+                                        <div class="gallery-wrap-inner">
+                                            <!-- Owl Carousel-->
+                                            <div class="owl-carousel owl-gallery" data-items="1" data-dots="true" data-nav="false" data-stage-padding="0" data-loop="false" data-margin="0" data-mouse-drag="false" data-lightgallery="group" data-pagination-class=".dots-custom-nature"><a class="gallery-item" href="images/gallery-05-970x524.jpg" data-lightgallery="item">
+                                                <figure><img src="images/scale-grid-image-1.jpg" alt="" width="970" height="524"/>
+                                                </figure>
+                                                <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-05-02-970x524.jpg" data-lightgallery="item">
+                                                <figure><img src="images/scale-grid-image-2.jpg" alt="" width="970" height="524"/>
+                                                </figure>
+                                                <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-05-03-970x524.jpg" data-lightgallery="item">
+                                                <figure><img src="images/scale-grid-image-3.jpg" alt="" width="970" height="524"/>
+                                                </figure>
+                                                <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="tabs-1-2">
+                        <div class="content-box hide-on-modal">
+                            <div class="content-box-inner">
+                                <div class="row align-items-center row-30 row-md-30">
+                                    <div class="col-12 col-md-6 col-lg-7">
+                                        <figure><img src="images/about-me-image.png" alt="" width="504" height="369"/>
+                                        </figure>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-5">
+                                        <h3>Who I Am</h3>
+                                        <p class="subtitle">AQA Engineer / BackEnd Developer</p>
+                                        <p>I have over 4 years of experience as a QA Automation Engineer, specializing in Web, API, and Mobile testing. </p>
+                                        <p> Currently, I am expanding my expertise into backend development, focusing on Java, Spring Boot, JWT, Security, Nginx, CORS and Kafka.
+                                        </p><a class="button button-primary button-icon button-icon-left" href="#" data-toggle="modal" data-target="#modal-about-us"><span>More</span><span class="novi-icon icon fa-angle-right"></span></a>
+                                    </div>
+                                </div>
+                            </div><a class="close-content-box" href="#">x</a>
+                        </div>
+                        <div class="modal slideUp" id="modal-about-us" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="content-box">
+                                        <div class="content-box-inner">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <h3>A Few Words About Me</h3>
+                                                    <p>
+                                                        I have over 4 years of experience as a QA automation engineer. During this time I have been involved in testing and automation, developing and maintaining automated test frameworks for Web, API and Mobile. I have extensive experience with technologies such as Selenide, Selenium, Rest-Assured and have a deep understanding of CI/CD processes.
+                                                    </p>
+                                                    <p>
+                                                        Recently, I have been active in backend development, focusing on building robust and scalable microservices using Spring Boot and Java. My competencies include working with JWT for authorisation and authentication, Spring Security, and Kafka to implement asynchronous communication between microservices.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div><a class="close-modal-content-box" href="#" data-dismiss="modal">x</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tabs-1-3">
+                        <div class="content-box hide-on-modal">
+                            <div class="content-box-inner row-30">
+                                <h3>Project Documentation</h3>
+                                <div class="row align-items-center row-30">
+                                    <div class="col-12 col-md-6">
+                                        <div class="unit service-box">
+                                            <div class="unit-left"><span class="novi-icon icon icon-lg fa-info-circle"></span></div>
+                                            <div class="unit-body"><a class="subtitle" href="#" data-toggle="modal" data-target="#modal-service-1">Project Overview <br>[click to see more info]</a>
+                                                <p>The project allows to register new users, create posts and comments, and search for all actions performed by the user.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="unit service-box">
+                                            <div class="unit-left"><span class="novi-icon icon icon-lg fa-wrench"></span></div>
+                                            <div class="unit-body"><a class="subtitle" href="#" data-toggle="modal" data-target="#modal-service-2">Tech Stack <br>[click to see more info]</a>
+                                                <p>Tools used: IntelliJ IDEA Ultimate, Java, Spring Boot, JWT, Security, Kafka, Flyway, H2, PostgreSQL.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="unit service-box">
+                                            <div class="unit-left"><span class="novi-icon icon icon-lg fa-cogs"></span></div>
+                                            <div class="unit-body"><a class="subtitle" href="#" data-toggle="modal" data-target="#modal-service-3">Deployment Workflow <br>[click to see more info]</a>
+                                                <p>Deployment is done in several steps, including stopping the container, building the JAR, building the Docker image, and deploying it to the server.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="unit service-box">
+                                            <div class="unit-left"><span class="novi-icon icon icon-lg fa-database"></span></div>
+                                            <div class="unit-body"><a class="subtitle" href="#" data-toggle="modal" data-target="#modal-service-4">Database & Hosting <br>[click to see more info]</a>
+                                                <p>The database is hosted on the ScaleGrid platform, which uses AWS to create and manage the database.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><a class="close-content-box" href="#">x</a>
+                        </div>
+                        <div class="modal slideUp" id="modal-service-1" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="content-box">
+                                        <div class="content-box-inner">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <h3>Detailed description of the project</h3>
+                                                    <p>This project was created by me as part of my microservices development training. The main goal is to learn and practice integration of different microservices.
+                                                    </p>
+                                                    <p>The project implements functionality for user registration, adding posts and comments to them, as well as tracking all user actions via actionLogs, which allows you to analyse activity on the platform.</p>
+                                                </div>
+                                            </div>
+                                        </div><a class="close-modal-content-box" href="#" data-dismiss="modal">x</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal slideUp" id="modal-service-2" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="content-box">
+                                        <div class="content-box-inner">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <h3>Detailed description of the tools</h3>
+                                                    <p>I use a number of modern tools and technologies for project development. IntelliJ IDEA Ultimate provides a convenient environment for coding.
+                                                    </p>
+                                                    <p>The main development language is Java, and Spring Boot is used to create microservices. JWT and Spring Security are responsible for security and user authorisation, and Kafka is used for asynchronous communication between microservices.
+                                                    </p>
+                                                    <p> Flyway is used for database migrations, and as databases I use H2 for local development and PostgreSQL for production.</p>
+                                                </div>
+                                            </div>
+                                        </div><a class="close-modal-content-box" href="#" data-dismiss="modal">x</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal slideUp" id="modal-service-3" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="content-box">
+                                        <div class="content-box-inner">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <h3>Detailed description of the deployment process</h3>
+                                                    <p><span style="font-weight: bold;">Image Logs Stage:</span> In this stage, the last 1000 lines of Docker container logs are retrieved from the remote server via an SSH request. This step allows you to capture the current logs of the container before it is stopped and removed.</p>
+
+                                                    <p><span style="font-weight: bold;">Docker Stop Stage:</span> At this stage, the current Docker container on the server is stopped and removed. This is necessary to prepare the server for deploying the new version of the application.</p>
+
+                                                    <p><span style="font-weight: bold;">Data Check Stage:</span> Here, a check of the current Docker environment on the server is performed, including information about the Docker network, registry, and user data validation. This ensures that all necessary information is correctly set up before starting the build process.</p>
+
+                                                    <p><span style="font-weight: bold;">Build JAR Stage:</span> In this stage, the JAR file is built from the application's source code using Maven. This is a critical step, as the JAR file will be included in the Docker image.</p>
+
+                                                    <p><span style="font-weight: bold;">Build Docker Stage:</span> After the JAR file is built, a new Docker image of the application is created and then pushed to the Docker Registry. This allows the application version to be ready for deployment on the server.</p>
+
+                                                    <p><span style="font-weight: bold;">Deploy Stage:</span> The final stage, where the new Docker image is pulled from the Docker Registry and deployed on the server. The container is started with specified parameters, such as the service port and name, and configured to automatically restart in case of failure.</p>
+
+                                                </div>
+                                            </div>
+                                        </div><a class="close-modal-content-box" href="#" data-dismiss="modal">x</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal slideUp" id="modal-service-4" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="content-box">
+                                        <div class="content-box-inner">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <h3>Detailed description of the database and hosting</h3>
+                                                    <p>ScaleGrid provides AWS-based managed databases for high availability and scalability. PostgreSQL or other database can be easily deployed with this platform and backups and monitoring can be managed.
+                                                    </p>
+                                                    <p> Hosting is provided on a dedicated server that also uses Docker for application deployment. This allows for flexible resource management and maintains high performance of the service.</p>
+                                                </div>
+                                            </div>
+                                        </div><a class="close-modal-content-box" href="#" data-dismiss="modal">x</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tabs-1-4">
+                        <div class="content-box hide-on-modal">
+                            <div class="row row-30 justify-content-center align-items-center">
+                                <div class="col-12 col-md-7">
+                                    <!--RD Mailform-->
+                                    <form class="rd-mailform text-left" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+                                        <div class="row row-14 gutters-14">
+                                            <div class="col-sm-6">
+                                                <div class="form-wrap">
+                                                    <label class="form-label" for="contact-name">Name</label>
+                                                    <input class="form-input" id="contact-name" type="text" name="name" data-constraints="@Required">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-wrap">
+                                                    <label class="form-label" for="contact-phone">Phone</label>
+                                                    <input class="form-input" id="contact-phone" type="text" name="phone" data-constraints="@Required @PhoneNumber">
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-wrap">
+                                                    <label class="form-label" for="contact-message">Message</label>
+                                                    <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-wrap">
+                                                    <label class="form-label" for="contact-email">Your E-Mail</label>
+                                                    <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Required @Email">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 align-self-end">
+                                                <div class="form-button">
+                                                    <button class="button button-lg button-block button-primary" type="submit">Send</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <h3>Contact Info</h3>
+                                    <address class="subtitle">Ukraine,<br> Kiev.</address>
+                                    <ul class="contact-info">
+                                        <li><span>Freephone:</span><a href="tel:#">+1 234 456 789</a></li>
+                                        <li><span>Telephone:</span><a href="tel:#">+1 234 456 789</a></li>
+                                        <li><span>FAX:</span><a href="tel:#">+1 234 456 789</a></li>
+                                        <li><span>E-mail:</span><a href="mailto:kolyakol8787@gmail.com">kolyakol8787@gmail.com</a></li>
+                                    </ul>
+                                </div>
+                            </div><a class="close-content-box" href="#">x</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Page Footer-->
+    <footer class="section footer-classic context-dark novi-background">
+        <div class="container">
+            <div class="footer-group">
+                <ul class="list-inline list-inline-xs">
+                    <li>
+                        <a href="https://www.udemy.com/user/mykola-shchypailo/" target="_blank">
+                            <img src="images/udemy-1.svg" alt="Udemy" width="20" height="20">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="novi-icon icon-xxs fa fa-linkedin icon" href="https://www.linkedin.com/in/mykola-shchypailo-284997297/" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a class="novi-icon icon-xxs fa fa-github icon" href="https://github.com/nick8787" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a class="novi-icon icon-xxs fa fa-gitlab icon" href="https://gitlab.com/post_wave-project" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a class="novi-icon icon-xxs fa fa-youtube icon" href="#" target="_blank"></a>
+                    </li>
+                </ul>
+
+
+                <!-- Rights-->
+                <p class="rights">
+                    <span>&copy;&nbsp;</span>
+                    <span class="copyright-year"></span>
+                    <span>&nbsp;</span>
+                    <span>.&nbsp;</span>
+                    <a href="#" data-toggle="modal" data-target="#privacy">Privacy Policy</a>.
+                    Design&nbsp;by&nbsp;
+                    <a href="https://www.linkedin.com/in/mykola-shchypailo-284997297/" target="_blank">Mykola Shchypailo</a>
+                </p>
+            </div>
+        </div>
+        <!-- Coded by JeremyLuis-->
+    </footer>
+
+    <div class="modal modal-centered slideUp" id="privacy" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="content-box">
+                    <div class="content-box-inner">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3>Privacy Policy</h3>
+                                <p>text234983289</p>
+                                <p>Text32523523</p>
+                            </div>
+                        </div>
+                    </div><a class="close-modal-content-box" href="#" data-dismiss="modal">x</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Global Mailform Output-->
+<div class="snackbars" id="form-output-global"></div>
+<!-- Javascript-->
+<script src="js/core.min.js"></script>
+<script src="js/script.js"></script>
+<!-- coded by ragnar-->
+</body>
+</html>
