@@ -1,13 +1,122 @@
-<h1 align="center"> Post-Wave Project </h1>
+<h1 align="center" style="
+  font-family: 'Barlow', sans-serif;
+  font-size: 3.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  position: relative;
+  color: #00aaff;
+  text-shadow: 0 0 10px #00aaff, 0 0 20px #0077cc, 0 0 30px #003366;
+  background: url('https://www.transparenttextures.com/patterns/cubes.png');
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: fractalNetBlue 4s infinite ease-in-out;
+">
+  Post-Wave Project
+</h1>
 
-<p align="center">
- <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
+<style>
+@keyframes fractalNetBlue {
+  0% {
+    text-shadow: 0 0 10px #00aaff, 0 0 20px #0077cc, 0 0 30px #003366;
+    transform: scale(1);
+  }
+  50% {
+    text-shadow: 0 0 20px #00aaff, 0 0 30px #0077cc, 0 0 40px #003366;
+    transform: scale(1.05);
+  }
+  100% {
+    text-shadow: 0 0 10px #00aaff, 0 0 20px #0077cc, 0 0 30px #003366;
+    transform: scale(1);
+  }
+}
+</style>
 
-  <a href="https://nick8787.github.io/post-wave-demo-project/" target="_blank">
-    <img src="https://img.shields.io/badge/Visit%20Live%20Project%20Site-Click%20Here-brightgreen?style=for-the-badge&logo=github&logoColor=white" alt="Visit Live Project Site">
-  </a>
- <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
-</p>
+<div style="text-align: center; margin: 40px 0;">
+  <div style="display: block; width: 100%; max-width: 600px; margin: 20px auto;">
+    <a href="https://nick8787.github.io/post-wave-documentation/" target="_blank" style="text-decoration: none;">
+      <div style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, #1e1e1e, #333333);
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+        position: relative;
+        overflow: hidden;
+        font-family: 'Barlow', sans-serif;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      ">
+        <img src="https://img.icons8.com/fluency/96/000000/document.png" alt="Documentation" width="40" style="margin-right: 15px; filter: brightness(0.9);">
+        <span style="color: #ffffff; font-size: 1.3em; font-weight: bold; text-transform: uppercase;">Project Documentation</span>
+        <div style="
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 200%;
+          height: 200%;
+          background: radial-gradient(circle, rgba(255, 255, 255, 0.1), transparent);
+          transform: translate(-50%, -50%) scale(0);
+          transition: transform 0.6s ease;
+          border-radius: 50%;
+          z-index: 0;
+        "></div>
+      </div>
+    </a>
+  </div>
+
+  <div style="display: block; width: 100%; max-width: 600px; margin: 20px auto;">
+    <a href="https://nick8787.github.io/post-wave-demo-project/" target="_blank" style="text-decoration: none;">
+      <div style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, #1e1e1e, #333333);
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+        position: relative;
+        overflow: hidden;
+        font-family: 'Barlow', sans-serif;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      ">
+        <img src="https://img.icons8.com/fluency/96/000000/internet.png" alt="Live Project" width="40" style="margin-right: 15px; filter: brightness(0.9);">
+        <span style="color: #ffffff; font-size: 1.3em; font-weight: bold; text-transform: uppercase;">Visit Live Project Site</span>
+        <div style="
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 200%;
+          height: 200%;
+          background: radial-gradient(circle, rgba(255, 255, 255, 0.1), transparent);
+          transform: translate(-50%, -50%) scale(0);
+          transition: transform 0.6s ease;
+          border-radius: 50%;
+          z-index: 0;
+        "></div>
+      </div>
+    </a>
+  </div>
+</div>
+
+<style>
+  a div:hover {
+    transform: translateY(-8px) scale(1.05);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.9);
+  }
+  
+  a div:hover > div {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  a div span, a div img {
+    position: relative;
+    z-index: 1;
+  }
+</style>
 
 <p align="center">
   <img src="images/post-wave-gif-1-last.gif" alt="Post-Wave Logo" />
