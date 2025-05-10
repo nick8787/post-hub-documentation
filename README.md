@@ -23,7 +23,16 @@
 
 ## ⚙️ Project Overview
 
-Post-Wave is a microservices-based platform that enables users to register, create posts and comments, and track all actions performed on the platform. The project serves as a learning tool for understanding microservices architecture, integration, and deployment.
+**Post-Hub**  is a demo project created for my Udemy course to demonstrate how microservices work in practice. It lets users register, log in, create posts and comments, and shows how services communicate via Kafka and are secured with JWT.
+
+## 🔍 What the project does
+
+- User registration and login
+- Post and comment creation
+- Action logging via Kafka
+- Secure endpoints using JWT
+- Web access via Gateway and Nginx
+- Full microservices architecture + CI/CD deployment
 
 ## 🛠️ Tech Stack
 
