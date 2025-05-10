@@ -3,7 +3,7 @@
 <p align="center">
  <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
 
-  <a href="https://nick8787.github.io/post-wave-documentation/" target="_blank">
+  <a href="https://nick8787.github.io/post-hub-documentation/" target="_blank">
     <img src="https://img.shields.io/badge/Project%20Documentation-Click%20Here-blue?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Visit Documentation">
   </a>
  <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
@@ -11,7 +11,7 @@
 <p align="center">
  <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
 
-  <a href="https://nick8787.github.io/post-wave-demo-project/" target="_blank">
+  <a href="https://post-hub-project.com" target="_blank">
     <img src="https://img.shields.io/badge/Visit%20Live%20Project%20Site-Click%20Here-brightgreen?style=for-the-badge&logo=github&logoColor=white" alt="Visit Live Project Site">
   </a>
  <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
